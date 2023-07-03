@@ -16,8 +16,7 @@ body{
    
 }
 .container{
-    overflow: hidden;
-}
+padding: 0 2rem 0 2rem;}
 
 .hero-text{
     text-align: center;
