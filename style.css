@@ -16,7 +16,7 @@ body{
    
 }
 .container{
-padding: 0 2rem 0 2rem;}
+padding: 0 0 0 2rem;}
 
 .hero-text{
     text-align: center;
@@ -30,9 +30,10 @@ html{
     font-size: 62.5%;
 }
 .hero-text h1{
-    font-size: 4.2rem;
+    font-size: 3.2rem;
     line-height: 1.2;
     font-weight: 700;
+    text-align: center;
     
 }
 
@@ -43,7 +44,7 @@ html{
 
     }
     .container{
-        padding: 0 3rem 0 2rem;
+        padding: 0 0 0 2rem;
     }
     
 }
@@ -62,6 +63,7 @@ grid-template-rows: 1fr;}
 span{
     color: rgb(150, 0, 0);
     font-weight: 600;
+    display: inline;
 }
 
 
@@ -112,18 +114,29 @@ textarea{width: 90%;
 .foot-nav{display: flex;
     flex-direction: row;
     gap: 1rem;
-    margin-left:0 ;
+    justify-content: space-between ;
+    align-content: center;
+    margin-left: -1rem;
+    margin-right: 1rem;
 }
 
 .foot-nav li{
     list-style: none;
     font-size: 1.8rem;
     margin-left: 0;
+    text-decoration: none;
 }
 .textlil{font-size: 1.4rem;
 font-style: italic;}
 .check{
-  display:flex;}
+  display:flex;
+}
+.checkbox{
+    flex:content;
+    margin-right: 1.5rem;
+    align-self: flex-start;
+    margin-top: 2.0rem;
+}
 
 
   button{
