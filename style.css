@@ -42,6 +42,9 @@ html{
         font-size: 5.2rem;
 
     }
+    .container{
+        padding: 0 3rem 0 2rem;
+    }
     
 }
 @media screen and (min-width:600px){
