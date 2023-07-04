@@ -47,6 +47,18 @@ html{
     .container{
         padding: 0 0 0 2rem;
     }
+    .reg{
+        font-size: 6rem;
+        text-align: center;
+    }
+    .form-label{
+        font-size: 2.8rem;
+        margin-bottom: 0.6rem;
+        line-height: 1.2;
+    }
+    .first-text{font-size: 3.8rem;
+    line-height: 1.2;
+    letter-spacing: 0.2px;}
     
 }
 @media screen and (min-width:600px){
