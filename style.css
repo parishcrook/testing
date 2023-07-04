@@ -16,7 +16,8 @@ body{
    
 }
 .container{
-padding: 0 0 0 2rem;}
+padding: 0 0 0 2rem;
+overflow: -moz-hidden-unscrollable;}
 
 .hero-text{
     text-align: center;
